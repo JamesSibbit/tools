@@ -14,7 +14,7 @@ longs = ['-3.380473']
 map_options = GMapOptions(lat=0, lng=0, zoom=3)
 plot = GMapPlot(x_range=Range1d(), y_range=Range1d(), map_options=map_options)
 plot.title.text = 'Our Plot'
-plot.api_key = 'AIzaSyCSGq5pTts_-oZNA7KaVh6PiVwIax6XpnE'
+plot.api_key = 'Enter API key here'
 
 source = ColumnDataSource(data=dict(lat=lats, lon=longs))
 
